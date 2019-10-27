@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap');
+
 body {
 	margin: 0;
 	padding: 0;
@@ -23,16 +24,15 @@ body {
 .main-cont {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
 	box-sizing: border-box;
 	overflow-x: hidden;
-	overflow-y: auto;
-	padding: 40px 50px;
+	overflow-y: hidden;
+	padding: 115px 50px 40px 50px;
 }
-
 .cont1 {
 	background: url('../img/bg1.jpg');
 	background-size: cover;
@@ -43,7 +43,7 @@ body {
 .cont2 {
 	background: url('../img/bg2.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 }
 
@@ -69,16 +69,18 @@ body {
 	width: 100%;
 	height: 50px;
 	box-sizing: border-box;
+	display: none;
 }
 
 .main-cont-row-2 {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	width: auto;
 	height: auto;
 	box-sizing: border-box;
+	max-width: 787px;
 }
 
 .cont1 .main-cont-row-2 .title-text {
@@ -100,18 +102,8 @@ body {
 	letter-spacing: 1px;
 	line-height: 140%;
 	text-align: center;
-	margin-bottom: 61px;
+	margin-bottom: 32px;
 	max-width: 553px;
-}
-
-.cont2 .main-cont-row-2 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	width: auto;
-	height: auto;
-	box-sizing: border-box;
 }
 
 .cont2 .main-cont-row-2 .title-text {
@@ -122,8 +114,9 @@ body {
 	letter-spacing: 1px;
 	line-height: 140%;
 	text-align: center;
-	margin-top: 75%;
 	max-width: 690px;
+	margin-bottom: 32px;
+	margin-top: -157px;
 }
 
 .cont2 .main-cont-row-2 .title-text-sub {
@@ -134,8 +127,6 @@ body {
 	line-height: 140%;
 	text-align: center;
 	max-width: 762px;
-	position: relative;
-	top: 35px;
 }
 
 .cont3 .main-cont-row-2 .title-text {
@@ -146,8 +137,10 @@ body {
 	letter-spacing: 1px;
 	line-height: 140%;
 	text-align: center;
-	margin-top: 75%;
 	max-width: 787px;
+    position: relative;
+    margin-top: -437px;
+    margin-bottom: 23px;
 }
 
 .cont3 .main-cont-row-2 .title-text-sub {
@@ -159,7 +152,6 @@ body {
 	text-align: center;
 	max-width: 783px;
 	position: relative;
-	top: 35px;
 }
 
 .cont4 .main-cont-row-2 .title-text {
@@ -172,6 +164,7 @@ body {
 	text-align: center;
 	margin-top: 75%;
 	max-width: 685px;
+	margin-top: -377px;
 }
 
 .cont4 .main-cont-row-2 .title-text-sub {
@@ -194,6 +187,8 @@ body {
 	width: 100%;
 	min-height: 34px;
 	box-sizing: border-box;
+	position: absolute;
+    bottom: 40px;
 }
 
 .logo-s {
@@ -220,8 +215,50 @@ body {
 	height: 32px;
 	display: block;
 	cursor: pointer;
-	margin-bottom: 66px;
+	margin-bottom: 32px;
 	transition: all 0.23s ease;
+}
+
+.book {
+	background-image: url('../img/book.png'); 
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 762px;
+	height: 572px;
+	display: block;
+	cursor: pointer;
+	transition: all 0.23s ease;
+	position: relative;
+    right: 77px;
+}
+
+.cloud {
+	background-image: url('../img/cloud.png'); 
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 877px;
+	height: 864px;
+	display: block;
+	cursor: pointer;
+	transition: all 0.23s ease;
+	position: relative;
+    right: 170px;
+    bottom: 117px;
+    transform: scale(0.95);
+}
+
+.www {
+	background-image: url('../img/www.png'); 
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 1229px;
+	height: 596px;
+	display: block;
+	cursor: pointer;
+	transition: all 0.23s ease;
+	position: relative;
+    transform: scale(0.8);
+    bottom: 217px;
 }
 
 input.header-input {
@@ -379,4 +416,8 @@ a.googleplay {
 	cursor: pointer;
 	transition: all 0.23s ease;
 	margin-left: 32px;
+}
+
+.p-t-3 {
+	padding-top: 0;
 }
