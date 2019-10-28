@@ -238,7 +238,7 @@ body {
     bottom: 217px;
 }
 
-@media screen and (min-height: 773px), screen and (min-width: 1001px) {
+@media screen and (min-height: 750px), screen and (min-width: 1001px) {
 
 	.main-cont-row-2 {
 		height: auto;
@@ -326,7 +326,7 @@ body {
 	
 }
 
-@media screen and (max-height: 772px), screen and (max-width: 1000px) {
+@media screen and (max-height: 749px), screen and (max-width: 1000px) {
 
 	.main-cont-row-2 {
 		height: 100%;
