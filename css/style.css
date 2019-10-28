@@ -55,7 +55,6 @@ body {
 }
 
 .cont4 {
-	background: url('../img/bg4.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -91,18 +90,6 @@ body {
 	letter-spacing: 1px;
 	line-height: 140%;
 	text-align: center;
-	margin-bottom: 61px;
-}
-
-.cont1 .main-cont-row-2 .title-text {
-	color: #FFF;
-	font-size: 24pt;
-	font-weight: 400;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	line-height: 140%;
-	text-align: center;
-	margin-bottom: 32px;
 	max-width: 553px;
 }
 
@@ -116,7 +103,6 @@ body {
 	text-align: center;
 	max-width: 690px;
 	margin-bottom: 32px;
-	margin-top: -157px;
 }
 
 .cont2 .main-cont-row-2 .title-text-sub {
@@ -139,7 +125,6 @@ body {
 	text-align: center;
 	max-width: 787px;
     position: relative;
-    margin-top: -437px;
     margin-bottom: 23px;
 }
 
@@ -162,9 +147,7 @@ body {
 	letter-spacing: 1px;
 	line-height: 140%;
 	text-align: center;
-	margin-top: 75%;
 	max-width: 685px;
-	margin-top: -377px;
 }
 
 .cont4 .main-cont-row-2 .title-text-sub {
@@ -188,7 +171,7 @@ body {
 	min-height: 34px;
 	box-sizing: border-box;
 	position: absolute;
-    bottom: 40px;
+    bottom: 17px;
 }
 
 .logo-s {
@@ -215,9 +198,9 @@ body {
 	height: 32px;
 	display: block;
 	cursor: pointer;
-	margin-bottom: 32px;
 	transition: all 0.23s ease;
 }
+
 
 .book {
 	background-image: url('../img/book.png'); 
@@ -238,7 +221,6 @@ body {
 	background-position: center;
 	width: 877px;
 	height: 864px;
-	display: block;
 	cursor: pointer;
 	transition: all 0.23s ease;
 	position: relative;
@@ -253,12 +235,148 @@ body {
 	background-position: center;
 	width: 1229px;
 	height: 596px;
-	display: block;
 	cursor: pointer;
 	transition: all 0.23s ease;
 	position: relative;
     transform: scale(0.8);
     bottom: 217px;
+}
+
+@media screen and (min-height: 773px), screen and (min-width: 1001px) {
+
+	.book {
+		display: block;
+	}
+
+	.cloud {
+		display: block;
+	}
+
+	.www {
+		display: block;
+	}
+
+	.cont4 .main-cont-row-2 .title-text {
+		margin-top: -377px;
+	}
+
+	.cont3 .main-cont-row-2 .title-text {
+		margin-top: -437px;
+	}
+
+	.cont2 .main-cont-row-2 .title-text {
+		margin-top: -157px;
+	}
+
+	.cont1 .main-cont-row-2 .title-text {
+		margin-bottom: 32px;
+		transform: scale(1.0);
+	}
+
+	.p-t-3 {
+	padding-top: 0;
+	}
+
+	.cont4 {
+	background: url('../img/bg4.jpg');
+	background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+	}
+
+	.header-row {
+	transform: scale(1.0);	
+	}
+
+	.logo-b {
+	transform: scale(1.0);
+	margin-bottom: 32px;	
+	}
+
+	.btn {
+    transform: scale(1.0);
+	}
+
+	.mrgn-btn {
+	margin-bottom: 27px;
+	}
+
+	.main-cont-row-3 {
+	transform: scale(1.0);
+	}
+
+	
+}
+
+@media screen and (max-height: 772px), screen and (max-width: 1000px) {
+
+	.book {
+		display: none;
+	}
+
+	.cloud {
+		display: none;
+	}
+
+	.www {
+		display: none;
+	}
+
+	.cont4 .main-cont-row-2 .title-text {
+		margin-top: 0;
+	}
+
+	.cont3 .main-cont-row-2 .title-text {
+		margin-top: 0;
+	}
+
+	.cont2 .main-cont-row-2 .title-text {
+		margin-top: 0;
+	}
+
+	.cont1 .main-cont-row-2 .title-text {
+		margin-bottom: 7px;
+		transform: scale(0.8);
+	}
+
+	.p-t-3 {
+	padding-top: inherit;
+	}
+
+	.cont4 {
+	background: rgba(0,0,0,0.8);
+	background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+	}
+
+	.header-row {
+	transform: scale(0.8);	
+	}
+
+	.logo-b {
+	transform: scale(0.7);
+	margin-bottom: 7px;	
+	}
+
+	.btn {
+    transform: scale(0.8);
+	}
+
+	.mrgn-btn {
+	margin-bottom: 1px;
+	}
+
+	.main-cont-row-3 {
+	transform: scale(0.8);
+	}
+	
+}
+
+@media screen and (max-height: 556px) {
+.cont1 .main-cont-row-2 .title-text {
+    display: none;
+}
 }
 
 input.header-input {
@@ -360,10 +478,6 @@ input.header-input:focus:-moz-placeholder {
 	opacity: 0.9;
 }
 
-.mrgn-btn {
-	margin-bottom: 27px;
-}
-
 .btn-pink {
 	width: 362px;
 	height: 61px;
@@ -418,6 +532,3 @@ a.googleplay {
 	margin-left: 32px;
 }
 
-.p-t-3 {
-	padding-top: 0;
-}
