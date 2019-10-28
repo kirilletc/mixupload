@@ -91,8 +91,6 @@ body {
 
 .cont1 .main-cont-row-2 .title-text {
 	color: #FFF;
-	font-size: 24pt;
-	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	line-height: 140%;
@@ -102,8 +100,6 @@ body {
 
 .cont2 .main-cont-row-2 .title-text {
 	color: #FFF;
-	font-size: 24pt;
-	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	line-height: 140%;
@@ -124,8 +120,6 @@ body {
 
 .cont3 .main-cont-row-2 .title-text {
 	color: #FFF;
-	font-size: 24pt;
-	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	line-height: 140%;
@@ -148,8 +142,6 @@ body {
 
 .cont4 .main-cont-row-2 .title-text {
 	color: #FFF;
-	font-size: 24pt;
-	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	line-height: 140%;
@@ -271,19 +263,26 @@ body {
 
 	.cont4 .main-cont-row-2 .title-text {
 		margin-top: -377px;
+		font-size: 24pt;
+		font-weight: 400;
 	}
 
 	.cont3 .main-cont-row-2 .title-text {
 		margin-top: -437px;
+		font-size: 24pt;
+		font-weight: 400;
 	}
 
 	.cont2 .main-cont-row-2 .title-text {
 		margin-top: -157px;
+		font-size: 24pt;
+		font-weight: 400;
 	}
 
 	.cont1 .main-cont-row-2 .title-text {
 		margin-bottom: 32px;
-		transform: scale(1.0);
+		font-size: 24pt;
+		font-weight: 400;
 	}
 
 	.p-t-3 {
@@ -335,7 +334,7 @@ body {
 
 	.main-cont {
 		justify-content: flex-start;
-		padding: 137px 50px 40px 50px;
+		padding: 127px 17px 23% 17px;
 	}
 
 	.book {
@@ -352,19 +351,26 @@ body {
 
 	.cont4 .main-cont-row-2 .title-text {
 		margin-top: 0;
+		font-size: 19pt;
+		font-weight: 100;
 	}
 
 	.cont3 .main-cont-row-2 .title-text {
 		margin-top: 0;
+		font-size: 19pt;
+		font-weight: 100;
 	}
 
 	.cont2 .main-cont-row-2 .title-text {
 		margin-top: 0;
+		font-size: 19pt;
+		font-weight: 100;
 	}
 
 	.cont1 .main-cont-row-2 .title-text {
 		margin-bottom: 7px;
-		transform: scale(0.8);
+		font-size: 19pt;
+		font-weight: 100;
 	}
 
 	.p-t-3 {
@@ -379,7 +385,7 @@ body {
 	}
 
 	.header-row {
-	transform: scale(0.7);
+	transform: scale(1.0);
 	justify-content: center;	
 	}
 
