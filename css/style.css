@@ -33,7 +33,7 @@ body {
 .cont1 {
 	background: url('../img/bg1.jpg');
 	background-size: cover;
-	background-position: top;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 
@@ -334,7 +334,7 @@ body {
 
 	.main-cont {
 		justify-content: flex-start;
-		padding: 127px 17px 23% 17px;
+		padding: 127px 17px 21% 25px;
 	}
 
 	.book {
@@ -419,7 +419,7 @@ input.header-input {
 	height: 48px;
 	width: 386px;
 	background: url("data:image/svg+xml;charset=utf8,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' viewBox='0 0.006 16 15.987'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='1.999 1.999 15.007 14.995' fill='%23fff'%3E%3Cpath fill='%23FFF' paint-order='stroke fill markers' fill-rule='evenodd' d='M8.574 1.999a6.572 6.572 0 0 1 6.575 6.568 6.572 6.572 0 0 1-6.575 6.568 6.572 6.572 0 0 1-6.575-6.568A6.572 6.572 0 0 1 8.574 2zm-.014 1.87a4.687 4.687 0 0 1 4.689 4.684 4.686 4.686 0 0 1-4.69 4.683 4.687 4.687 0 0 1-4.69-4.683c0-2.588 2.101-4.685 4.69-4.685zm6.858 12.839l-2.82-2.822c-.372-.373-.381-.967-.021-1.328.36-.36.952-.351 1.323.02l2.82 2.824c.372.372.382.966.022 1.327-.36.36-.953.351-1.324-.021z'/%3E%3C/svg%3E%3C/svg%3E") no-repeat rgba(255, 255, 255, 0.3);
-	background-position: 350px center;
+	background-position: 93% center;
 	border: 0px solid #818181;
 	box-sizing: border-box;
 	outline: none;
@@ -446,7 +446,7 @@ input.header-input::-webkit-input-placeholder {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14pt;
-	line-height: 19px;
+	line-height: 22px;
 	color: #FFF;
 	transition: all 0.23s ease;
 }
