@@ -103,8 +103,7 @@ html.fp-enabled,
 	-webkit-transform: translate3d(0, 0, 0)
 }
 
-@media screen and (min-height: 750px),
-screen and (min-width: 1001px) {
+@media screen and (min-width: 1001px) {
 	#fp-nav.left {
 		left: 56px;
 	}
@@ -277,8 +276,7 @@ screen and (min-width: 1001px) {
 	}
 }
 
-@media screen and (max-height: 749px),
-screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 	#fp-nav.left {
 		left: 5px;
 	}

@@ -105,7 +105,7 @@ body {
 	line-height: 140%;
 	text-align: center;
 	max-width: 690px;
-	margin-bottom: 32px;
+	margin-bottom: 23px;
 }
 
 .cont2 .main-cont-row-2 .title-text-sub {
@@ -147,6 +147,7 @@ body {
 	line-height: 140%;
 	text-align: center;
 	max-width: 685px;
+	margin-bottom: 23px;
 }
 
 .cont4 .main-cont-row-2 .title-text-sub {
@@ -158,7 +159,6 @@ body {
 	text-align: center;
 	max-width: 783px;
 	position: relative;
-	top: 35px;
 }
 
 .main-cont-row-2-second {
@@ -209,6 +209,7 @@ body {
 	transition: all 0.23s ease;
 	position: relative;
     right: 77px;
+	bottom: 55px;
 }
 
 .cloud {
@@ -238,7 +239,7 @@ body {
     bottom: 217px;
 }
 
-@media screen and (min-height: 750px), screen and (min-width: 1001px) {
+@media screen and (min-height: 551px), screen and (min-width: 1001px) {
 
 	.main-cont-row-2 {
 		height: auto;
@@ -274,7 +275,7 @@ body {
 	}
 
 	.cont2 .main-cont-row-2 .title-text {
-		margin-top: -157px;
+		margin-top: -223px;
 		font-size: 24pt;
 		font-weight: 400;
 	}
@@ -317,7 +318,7 @@ body {
 	.main-cont-row-2-second {
 	transform: scale(1.0);
 	position: absolute;
-    bottom: 40px;
+    bottom: 17px;
 	}
 
 	.logo-s {
@@ -326,7 +327,7 @@ body {
 	
 }
 
-@media screen and (max-height: 749px), screen and (max-width: 1000px) {
+@media screen and (max-height: 550px), screen and (max-width: 1000px) {
 
 	.main-cont-row-2 {
 		height: 100%;
