@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap');
-
 body {
 	margin: 0;
 	padding: 0;
@@ -30,6 +29,7 @@ body {
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
+
 .cont1 {
 	background: url('../img/bg1.jpg');
 	background-size: cover;
@@ -79,13 +79,13 @@ body {
 
 .main-cont-row-2-first {
 	display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: auto;
-    height: 100%;
-    box-sizing: border-box;
-    max-width: 787px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: auto;
+	height: 100%;
+	box-sizing: border-box;
+	max-width: 787px;
 }
 
 .cont1 .main-cont-row-2 .title-text {
@@ -122,7 +122,7 @@ body {
 	line-height: 140%;
 	text-align: center;
 	max-width: 787px;
-    position: relative;
+	position: relative;
 }
 
 .cont3 .main-cont-row-2 .title-text-sub {
@@ -190,9 +190,8 @@ body {
 	transition: all 0.23s ease;
 }
 
-
 .book {
-	background-image: url('../img/book.png'); 
+	background-image: url('../img/book.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 762px;
@@ -204,7 +203,7 @@ body {
 }
 
 .cloud {
-	background-image: url('../img/cloud.png'); 
+	background-image: url('../img/cloud.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 877px;
@@ -215,7 +214,7 @@ body {
 }
 
 .www {
-	background-image: url('../img/www.png'); 
+	background-image: url('../img/www.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 1229px;
@@ -223,163 +222,134 @@ body {
 	cursor: pointer;
 	transition: all 0.23s ease;
 	position: relative;
-    
 }
 
-@media screen and (min-height: 551px), screen and (min-width: 1001px) {
-
+@media screen and (min-width: 1001px) {
 	.main-cont-row-2 {
 		height: auto;
 		max-width: 787px;
 	}
-
 	.main-cont {
 		justify-content: center;
-		padding: 115px 50px 40px 50px;		
+		padding: 115px 50px 40px 50px;
 	}
-
 	.book {
 		display: block;
 		right: 77px;
 		bottom: 55px;
 		transform: scale(1.0);
 	}
-
 	.cloud {
 		display: block;
 		right: 170px;
-		bottom: 117px;
+		bottom: 123px;
 		transform: scale(0.95);
 	}
-
 	.www {
 		display: block;
 		right: 0;
 		bottom: 217px;
 		transform: scale(0.8);
 	}
-
 	.cont4 .main-cont-row-2 .title-text {
 		margin-top: -377px;
 		font-size: 24pt;
 		font-weight: 400;
 		margin-bottom: 23px;
 	}
-
 	.cont3 .main-cont-row-2 .title-text {
 		margin-top: -437px;
 		font-size: 24pt;
 		font-weight: 400;
 		margin-bottom: 23px;
 	}
-
 	.cont2 .main-cont-row-2 .title-text {
 		margin-top: -223px;
 		font-size: 24pt;
 		font-weight: 400;
 		margin-bottom: 23px;
 	}
-
 	.cont1 .main-cont-row-2 .title-text {
 		margin-bottom: 32px;
 		font-size: 24pt;
 		font-weight: 400;
 	}
-
 	.p-t-3 {
-	padding-top: 0;
+		padding-top: 0;
 	}
-
 	.cont4 {
-	background: url('../img/bg4.jpg');
-	background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
+		background: url('../img/bg4.jpg');
+		background-size: cover;
+		background-position: bottom;
+		background-repeat: no-repeat;
 	}
-
 	.header-row {
-	transform: scale(1.0);
-	justify-content: flex-start;	
+		transform: scale(1.0);
+		justify-content: flex-start;
 	}
-
 	.logo-b {
-	transform: scale(1.0);
-	margin-bottom: 32px;	
+		transform: scale(1.0);
+		margin-bottom: 32px;
 	}
-
 	.btn {
-    transform: scale(1.0);
+		transform: scale(1.0);
 	}
-
 	.mrgn-btn {
-	margin-bottom: 27px;
+		margin-bottom: 27px;
 	}
-
 	.main-cont-row-2-second {
-	transform: scale(1.0);
-	position: absolute;
-    bottom: 17px;
+		transform: scale(1.0);
+		position: absolute;
+		bottom: 17px;
 	}
-
 	.logo-s {
 		display: block;
 	}
-	
 	.cont2 .main-cont-row-2 .title-text-sub {
 		font-size: 19px;
 	}
-	
 	.cont3 .main-cont-row-2 .title-text-sub {
 		font-size: 19px;
 	}
-	
 	.cont4 .main-cont-row-2 .title-text-sub {
 		font-size: 19px;
 	}
-	
 }
 
-@media screen and (max-height: 550px), screen and (max-width: 1000px) {
-
+@media screen and (max-width: 1000px) {
 	.main-cont-row-2 {
 		height: 100%;
 		max-width: -webkit-fill-available;
 	}
-
 	.main-cont {
 		justify-content: flex-start;
 		padding: 127px 17px 21% 25px;
 	}
-
 	.book {
 		display: block;
 		right: 37px;
-		bottom: 155px;
+		bottom: 182px;
 		transform: scale(0.45)
 	}
-
 	.cloud {
 		display: block;
 		right: 83px;
-		bottom: 320px;
+		bottom: 323px;
 		transform: scale(0.43);
 	}
-
 	.www {
 		display: block;
 		right: 10px;
-		bottom: 60px;
+		bottom: 171px;
 		transform: scale(0.55);
 	}
-
 	.cont4 .main-cont-row-2 .title-text {
 		margin-top: 0;
 		font-size: 19pt;
 		font-weight: 100;
 		margin-bottom: 13px;
-		margin-top: -170px;
+		margin-top: -381px;
 	}
-
 	.cont3 .main-cont-row-2 .title-text {
 		margin-top: 0;
 		font-size: 19pt;
@@ -387,72 +357,76 @@ body {
 		margin-bottom: 13px;
 		margin-top: -686px;
 	}
-
 	.cont2 .main-cont-row-2 .title-text {
-		margin-top: -381px;
+		margin-top: -414px;
 		font-size: 19pt;
 		font-weight: 100;
 		margin-bottom: 13px;
 	}
-
 	.cont1 .main-cont-row-2 .title-text {
 		margin-bottom: 7px;
 		font-size: 19pt;
 		font-weight: 100;
 	}
-
 	.p-t-3 {
-	padding-top: 137px;
+		padding-top: 137px;
 	}
-
 	.cont4 {
-	background: rgba(0,0,0,0.8);
-	background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
+		background: rgba(0, 0, 0, 0.8);
+		background-size: cover;
+		background-position: bottom;
+		background-repeat: no-repeat;
 	}
-
 	.header-row {
-	transform: scale(1.0);
-	justify-content: center;	
+		transform: scale(1.0);
+		justify-content: center;
 	}
-
 	.logo-b {
-	transform: scale(0.7);
-	margin-bottom: 7px;	
+		transform: scale(0.7);
+		margin-bottom: 7px;
 	}
-
 	.btn {
-    transform: scale(0.8);
+		transform: scale(0.8);
 	}
-
 	.mrgn-btn {
-	margin-bottom: 1px;
+		margin-bottom: 1px;
 	}
-
 	.main-cont-row-2-second {
-	transform: scale(0.8);
-	position: inherit;
-    bottom: inherit;
+		transform: scale(0.8);
+		position: inherit;
+		bottom: inherit;
 	}
-
 	.logo-s {
 		display: none;
 	}
-	
 	.cont2 .main-cont-row-2 .title-text-sub {
 		font-size: 16px;
 	}
-	
 	.cont3 .main-cont-row-2 .title-text-sub {
 		font-size: 17px;
 	}
-	
 	.cont4 .main-cont-row-2 .title-text-sub {
 		font-size: 17px;
 	}
+}
 
-	
+@media screen and (max-height: 500px) {
+	.cont1 .main-cont-row-2 .title-text {
+		display: none;
+	}
+	.btn {
+		display: none!important;
+	}
+	.book,
+	.cloud,
+	.www {
+		display: none;
+	}
+	.cont2 .main-cont-row-2 .title-text,
+	.cont3 .main-cont-row-2 .title-text,
+	.cont4 .main-cont-row-2 .title-text {
+		margin-top: 0;
+	}
 }
 
 input.header-input {
@@ -607,4 +581,3 @@ a.googleplay {
 	transition: all 0.23s ease;
 	margin-left: 32px;
 }
-
