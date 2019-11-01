@@ -75,7 +75,6 @@ body {
 	align-items: center;
 	width: auto;
 	box-sizing: border-box;
-	max-width: 787px;
 }
 
 .main-cont-row-2-first {
@@ -105,12 +104,10 @@ body {
 	line-height: 140%;
 	text-align: center;
 	max-width: 690px;
-	margin-bottom: 23px;
 }
 
 .cont2 .main-cont-row-2 .title-text-sub {
 	color: #FFF;
-	font-size: 19px;
 	font-weight: 500;
 	letter-spacing: 1px;
 	line-height: 140%;
@@ -126,12 +123,10 @@ body {
 	text-align: center;
 	max-width: 787px;
     position: relative;
-    margin-bottom: 23px;
 }
 
 .cont3 .main-cont-row-2 .title-text-sub {
 	color: #FFF;
-	font-size: 19px;
 	font-weight: 500;
 	letter-spacing: 1px;
 	line-height: 140%;
@@ -147,12 +142,10 @@ body {
 	line-height: 140%;
 	text-align: center;
 	max-width: 685px;
-	margin-bottom: 23px;
 }
 
 .cont4 .main-cont-row-2 .title-text-sub {
 	color: #FFF;
-	font-size: 19px;
 	font-weight: 500;
 	letter-spacing: 1px;
 	line-height: 140%;
@@ -208,8 +201,6 @@ body {
 	cursor: pointer;
 	transition: all 0.23s ease;
 	position: relative;
-    right: 77px;
-	bottom: 55px;
 }
 
 .cloud {
@@ -221,9 +212,6 @@ body {
 	cursor: pointer;
 	transition: all 0.23s ease;
 	position: relative;
-    right: 170px;
-    bottom: 117px;
-    transform: scale(0.95);
 }
 
 .www {
@@ -235,14 +223,14 @@ body {
 	cursor: pointer;
 	transition: all 0.23s ease;
 	position: relative;
-    transform: scale(0.8);
-    bottom: 217px;
+    
 }
 
 @media screen and (min-height: 551px), screen and (min-width: 1001px) {
 
 	.main-cont-row-2 {
 		height: auto;
+		max-width: 787px;
 	}
 
 	.main-cont {
@@ -252,32 +240,44 @@ body {
 
 	.book {
 		display: block;
+		right: 77px;
+		bottom: 55px;
+		transform: scale(1.0);
 	}
 
 	.cloud {
 		display: block;
+		right: 170px;
+		bottom: 117px;
+		transform: scale(0.95);
 	}
 
 	.www {
 		display: block;
+		right: 0;
+		bottom: 217px;
+		transform: scale(0.8);
 	}
 
 	.cont4 .main-cont-row-2 .title-text {
 		margin-top: -377px;
 		font-size: 24pt;
 		font-weight: 400;
+		margin-bottom: 23px;
 	}
 
 	.cont3 .main-cont-row-2 .title-text {
 		margin-top: -437px;
 		font-size: 24pt;
 		font-weight: 400;
+		margin-bottom: 23px;
 	}
 
 	.cont2 .main-cont-row-2 .title-text {
 		margin-top: -223px;
 		font-size: 24pt;
 		font-weight: 400;
+		margin-bottom: 23px;
 	}
 
 	.cont1 .main-cont-row-2 .title-text {
@@ -325,12 +325,25 @@ body {
 		display: block;
 	}
 	
+	.cont2 .main-cont-row-2 .title-text-sub {
+		font-size: 19px;
+	}
+	
+	.cont3 .main-cont-row-2 .title-text-sub {
+		font-size: 19px;
+	}
+	
+	.cont4 .main-cont-row-2 .title-text-sub {
+		font-size: 19px;
+	}
+	
 }
 
 @media screen and (max-height: 550px), screen and (max-width: 1000px) {
 
 	.main-cont-row-2 {
 		height: 100%;
+		max-width: -webkit-fill-available;
 	}
 
 	.main-cont {
@@ -339,33 +352,47 @@ body {
 	}
 
 	.book {
-		display: none;
+		display: block;
+		right: 37px;
+		bottom: 155px;
+		transform: scale(0.45)
 	}
 
 	.cloud {
-		display: none;
+		display: block;
+		right: 83px;
+		bottom: 320px;
+		transform: scale(0.43);
 	}
 
 	.www {
-		display: none;
+		display: block;
+		right: 10px;
+		bottom: 60px;
+		transform: scale(0.55);
 	}
 
 	.cont4 .main-cont-row-2 .title-text {
 		margin-top: 0;
 		font-size: 19pt;
 		font-weight: 100;
+		margin-bottom: 13px;
+		margin-top: -170px;
 	}
 
 	.cont3 .main-cont-row-2 .title-text {
 		margin-top: 0;
 		font-size: 19pt;
 		font-weight: 100;
+		margin-bottom: 13px;
+		margin-top: -686px;
 	}
 
 	.cont2 .main-cont-row-2 .title-text {
-		margin-top: 0;
+		margin-top: -381px;
 		font-size: 19pt;
 		font-weight: 100;
+		margin-bottom: 13px;
 	}
 
 	.cont1 .main-cont-row-2 .title-text {
@@ -411,6 +438,18 @@ body {
 
 	.logo-s {
 		display: none;
+	}
+	
+	.cont2 .main-cont-row-2 .title-text-sub {
+		font-size: 16px;
+	}
+	
+	.cont3 .main-cont-row-2 .title-text-sub {
+		font-size: 17px;
+	}
+	
+	.cont4 .main-cont-row-2 .title-text-sub {
+		font-size: 17px;
 	}
 
 	
