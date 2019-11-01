@@ -314,6 +314,12 @@ body {
 	.cont4 .main-cont-row-2 .title-text-sub {
 		font-size: 19px;
 	}
+	a.appstore {
+		margin-right: 32px;
+	}
+	a.googleplay {
+		margin-right: 32px;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -392,7 +398,7 @@ body {
 		margin-bottom: 1px;
 	}
 	.main-cont-row-2-second {
-		transform: scale(0.8);
+		transform: scale(0.7);
 		position: inherit;
 		bottom: inherit;
 	}
@@ -408,9 +414,15 @@ body {
 	.cont4 .main-cont-row-2 .title-text-sub {
 		font-size: 17px;
 	}
+	a.appstore {
+		margin-right: 15px;
+	}
+	a.googleplay {
+		margin-left: 15px;
+	}
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 532px) {
 	.cont1 .main-cont-row-2 .title-text {
 		display: none;
 	}
@@ -567,7 +579,6 @@ a.appstore {
 	display: block;
 	cursor: pointer;
 	transition: all 0.23s ease;
-	margin-right: 32px;
 }
 
 a.googleplay {
@@ -579,5 +590,4 @@ a.googleplay {
 	display: block;
 	cursor: pointer;
 	transition: all 0.23s ease;
-	margin-left: 32px;
 }
