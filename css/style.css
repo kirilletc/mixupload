@@ -57,6 +57,13 @@ body {
 	background-repeat: no-repeat;
 }
 
+.cont5 {
+	background: url('../img/bg5.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .main-cont-row-1 {
 	display: flex;
 	flex-direction: row;
@@ -95,6 +102,10 @@ body {
 	line-height: 140%;
 	text-align: center;
 	max-width: 553px;
+}
+
+.cont1.cont5 .main-cont-row-2 .title-text {
+	max-width: 769px;
 }
 
 .cont2 .main-cont-row-2 .title-text {
@@ -394,6 +405,9 @@ body {
 	.btn {
 		transform: scale(0.8);
 	}
+	input.main-input {
+		transform: scale(0.8);
+	}
 	.mrgn-btn {
 		margin-bottom: 1px;
 	}
@@ -530,6 +544,102 @@ input.header-input:focus:-moz-placeholder {
 	/* Firefox 18- */
 	color: transparent;
 	text-indent: 40px;
+}
+
+
+input.main-input {
+	height: 61px;
+	width: 362px;
+	background: rgba(255, 255, 255, 0.9);
+	background-position: 93% center;
+	border: 0px solid #818181;
+	box-sizing: border-box;
+	outline: none;
+	border-radius: 60px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14pt;
+	line-height: 19px;
+	color: #666;
+	padding: 0 23px;
+}
+
+input.main-input:focus {
+	height: 61px;
+	width: 362px;
+	background: rgba(255, 255, 255, 1.0);
+	background-position: 350px center;
+	transition: background 0.33s ease;
+}
+
+input.main-input::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14pt;
+	line-height: 22px;
+	color: #666;
+	transition: all 0.23s ease;
+	text-align: center;
+}
+
+input.main-input::-moz-placeholder {
+	/* Firefox 19+ */
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14pt;
+	color: #666;
+	transition: all 0.23s ease;
+	text-align: center;
+}
+
+input.main-input:-ms-input-placeholder {
+	/* IE 10+ */
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14pt;
+	line-height: 19px;
+	color: #666;
+	transition: all 0.23s ease;
+	text-align: center;
+}
+
+input.main-input:-moz-placeholder {
+	/* Firefox 18- */
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14pt;
+	color: #FFF;
+	text-align: center;
+}
+
+input.main-input:focus::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: transparent;
+	display: none;
+	
+}
+
+input.main-input:focus::-moz-placeholder {
+	/* Firefox 19+ */
+	color: transparent;
+	
+}
+
+input.main-input:focus:-ms-input-placeholder {
+	/* IE 10+ */
+	color: transparent;
+	
+}
+
+input.main-input:focus:-moz-placeholder {
+	/* Firefox 18- */
+	color: transparent;
+	
 }
 
 .btn {
